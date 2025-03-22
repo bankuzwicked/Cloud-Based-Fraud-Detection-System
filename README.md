@@ -5,6 +5,9 @@ contact ---> email : bankud2001@gmail.com
 
 This project detects fraudulent transactions using a machine learning model deployed on AWS SageMaker. The model is trained on a dataset from Kaggle and is accessed via a web-based GUI to classify transactions as Fraud or Normal.
 
+
+
+
 **Steps to Connect AWS to Local Machine**
 
   1.**Dataset Upload** – The fraud detection dataset was uploaded to an S3 bucket in AWS.
