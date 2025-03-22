@@ -1,2 +1,11 @@
 # Cloud-Based-Fraud-Detection-System
 It is a simple credit card fraud detection cloud based model that uses Kaggle's Credit Crad Fraud Detection datasaet and predicts a trasaction to be either fraudulent or normal!
+![image](https://github.com/user-attachments/assets/a6606f35-548e-4af9-8e15-85a56a67a5f8)
+✅The above image shows this transaction is normal
+
+
+![image](https://github.com/user-attachments/assets/c771334f-6f12-4df3-8475-d68fef497527)
+❌The above image shows this transaction is fraudulent!
+
+![image](https://github.com/user-attachments/assets/9de98004-ff28-4422-8731-e777b7b44aab)
+⚠️The above image shows that the transaction doesnt exist!
