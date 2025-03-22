@@ -5,16 +5,16 @@ contact ---> email : bankud2001@gmail.com
 
 This project detects fraudulent transactions using a machine learning model deployed on AWS SageMaker. The model is trained on a dataset from Kaggle and is accessed via a web-based GUI to classify transactions as Fraud or Normal.
 
-Steps to Connect AWS to Local Machine
-Dataset Upload – The fraud detection dataset was uploaded to an S3 bucket in AWS.
+**Steps to Connect AWS to Local Machine**
+  1.Dataset Upload – The fraud detection dataset was uploaded to an S3 bucket in AWS.
 
-Model Training – The dataset was processed, and a machine learning model was trained on AWS SageMaker.
+  2.Model Training – The dataset was processed, and a machine learning model was trained on AWS SageMaker.
 
-Model Deployment – The trained model was deployed as a SageMaker Endpoint for real-time predictions.
+  3.Model Deployment – The trained model was deployed as a SageMaker Endpoint for real-time predictions.
 
-API Integration – An AWS Lambda function was created to interact with the SageMaker endpoint, and an API Gateway was set up to expose the API.
+  4.API Integration – An AWS Lambda function was created to interact with the SageMaker endpoint, and an API Gateway was set up to expose the API.
 
-Local GUI Connection – The frontend GUI (HTML, CSS, JavaScript) sends transaction data to the AWS API Gateway, which triggers the Lambda function to get predictions from SageMaker. The results are displayed in the GUI.
+  5.Local GUI Connection – The frontend GUI (HTML, CSS, JavaScript) sends transaction data to the AWS API Gateway, which triggers the Lambda function to get predictions from SageMaker. The results are displayed in the GUI.
 
 
 
